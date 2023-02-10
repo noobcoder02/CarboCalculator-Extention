@@ -1,0 +1,13 @@
+{
+	"name": "Carbon Footprint Calculator",
+	"description": "This extension calculates carbon footprint based on the total data sent/received when you visit any website",
+	"version": "1.0",
+	"manifest_version": 3,
+	"icons": {
+		"32": "fav-icon.jpg"
+	},
+	"action": {
+		"default_popup": "popup.html",
+		"default_icon": "fav-icon.jpg"
+	}
+}
