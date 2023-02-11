@@ -32,3 +32,35 @@ body{
 	flex-direction: column;
     /* text-transform: uppercase; */
 }
+
+.body{
+    padding: 10px;
+}
+
+.head2{
+    color: var(--dark-green);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    /* left: 50px; */
+    color: var(--dark-green);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.dots::after{
+    content: "";
+    animation: dot-animation 2.5s infinite ease-out;
+}
+
+@keyframes dot-animation{
+    0% {content: ".";}
+    33% {content: "..";}
+    66% {content: "...";}
+    99% {content: "";}
+}

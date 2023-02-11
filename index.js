@@ -30,7 +30,7 @@ function messageReceived(request) {
 		fetch('https://apiserver-p43l.onrender.com/api/' + _url)
 		.then((data) => data.json())
 		.then((data) => {
-			let content = document.querySelector('#content');
+			let content = document.getElementById('content');
 			let text = data.statistics.co2.grid.grams;
 			content.innerHTML = text;
 		});
