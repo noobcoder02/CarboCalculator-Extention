@@ -4,10 +4,10 @@
 	"version": "1.0",
 	"manifest_version": 3,
 	"icons": {
-		"32": "fav-icon.jpg"
+		"32": "/fav-icon.jpg"
 	},
 	"action": {
 		"default_popup": "popup.html",
-		"default_icon": "fav-icon.jpg"
+		"default_icon": "/fav-icon.jpg"
 	}
 }
