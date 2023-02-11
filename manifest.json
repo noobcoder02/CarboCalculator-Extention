@@ -3,9 +3,12 @@
 	"description": "This extension calculates carbon footprint based on the total data sent/received when you visit any website",
 	"version": "1.0",
 	"manifest_version": 3,
-	"icons": { 
-          "32": "icon32.png" 
+
+	"icons": {
+		"32": "/images/icon32.png"
 	},
+	"permissions": ["tabs"],
+
 	"action": {
 		"default_popup": "popup.html"
 	}
